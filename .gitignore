@@ -1,0 +1,7 @@
+node_modules/
+images
+music
+tmp
+package-lock.json
+.env
+# Local Netlify folder
