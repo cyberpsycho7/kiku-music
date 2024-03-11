@@ -27,7 +27,7 @@ const musicSchema = new mongoose.Schema({
     releaseDate: {
         type: String,
         required: false,
-        default: "unknown"
+        default: null
     },
     isExplicit: {
         type: Boolean,

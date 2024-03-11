@@ -14,9 +14,13 @@ const schema = {
         default: ["unknown"]
     },
     releaseDate: {
-        type: String,
+        type: Object,
         required: false,
-        default: "unknown"
+        default: {
+            day: null,
+            month: null,
+            year: null,
+        }
     },
     tracks: {
         type: Array,
